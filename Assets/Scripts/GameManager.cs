@@ -6,12 +6,19 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public Text UIScore;
+    public Text GameOverScore;
     int score;
 
     // 점수 표시
     void Update()
     {
-        UIScore.text = "Score : " + score.ToString();
+        if (UIScore != null)
+        {
+            UIScore.text = "Score : " + score.ToString();
+        }
+        if (GameOverScore != null)
+        {
+            GameOverScore.text = "Game Over\nScore : " + score.ToString();
+        }
     }
-
 }
