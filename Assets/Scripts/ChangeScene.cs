@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Title : MonoBehaviour
+public class ChangeScene : MonoBehaviour
 {
-    public string nextScene;
+    public string sceneName;
 
     // 게임 실행
     public void StartGame()
     {
-        SceneManager.LoadScene(nextScene);
+        SceneManager.LoadScene(sceneName);
     }
 
     // 게임 종료
