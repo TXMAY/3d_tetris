@@ -145,8 +145,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55919b79b1934452db3bca86c3815591, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fallTime: 0.5
-  rotPoint: {x: 0, y: 0, z: 0}
+  fallTime: 1
+  rotPoiint: {x: 0, y: 0, z: 0}
 --- !u!1 &7020703362457561583
 GameObject:
   m_ObjectHideFlags: 0
